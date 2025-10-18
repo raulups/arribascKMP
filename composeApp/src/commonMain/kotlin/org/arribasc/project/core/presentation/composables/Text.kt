@@ -18,8 +18,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
-import com.arribasc.fomo.core.presentation.composables.AppFontFamily
-import com.arribasc.fomo.core.presentation.textPrimary
+import  org.arribasc.project.core.presentation.composables.AppFontFamily
+import  org.arribasc.project.core.presentation.textPrimary
 
 @Composable
 fun Text(

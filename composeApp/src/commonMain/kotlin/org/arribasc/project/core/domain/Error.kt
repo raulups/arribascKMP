@@ -1,3 +1,3 @@
-package com.arribasc.fomo.core.domain
+package  org.arribasc.project.core.domain
 
 interface Error

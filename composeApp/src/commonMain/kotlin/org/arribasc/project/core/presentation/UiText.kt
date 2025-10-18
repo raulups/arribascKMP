@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.presentation
+package  org.arribasc.project.core.presentation
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.resources.StringResource

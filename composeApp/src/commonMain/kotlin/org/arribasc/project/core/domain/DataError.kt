@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.domain
+package  org.arribasc.project.core.domain
 
 sealed interface DataError: Error {
     enum class Remote: DataError {

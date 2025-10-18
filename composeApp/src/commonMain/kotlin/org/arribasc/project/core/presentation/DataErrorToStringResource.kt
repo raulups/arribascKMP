@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.presentation
+package  org.arribasc.project.core.presentation
 
 import arribasckmp.composeapp.generated.resources.Res
 import arribasckmp.composeapp.generated.resources.error_disk_full
@@ -7,7 +7,7 @@ import arribasckmp.composeapp.generated.resources.error_request_timeout
 import arribasckmp.composeapp.generated.resources.error_serialization
 import arribasckmp.composeapp.generated.resources.error_too_many_requests
 import arribasckmp.composeapp.generated.resources.error_unknown
-import com.arribasc.fomo.core.domain.DataError
+import  org.arribasc.project.core.domain.DataError
 
 fun DataError.toUiText(): UiText {
     val stringRes = when(this) {

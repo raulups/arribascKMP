@@ -1,7 +1,7 @@
-package com.arribasc.fomo.core.data
+package  org.arribasc.project.core.data
 
-import com.arribasc.fomo.core.domain.DataError
-import com.arribasc.fomo.core.domain.Result
+import  org.arribasc.project.core.domain.DataError
+import  org.arribasc.project.core.domain.Result
 import io.ktor.client.call.NoTransformationFoundException
 import io.ktor.client.call.body
 import io.ktor.client.network.sockets.SocketTimeoutException

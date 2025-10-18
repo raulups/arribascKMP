@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.presentation
+package  org.arribasc.project.core.presentation
 
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat

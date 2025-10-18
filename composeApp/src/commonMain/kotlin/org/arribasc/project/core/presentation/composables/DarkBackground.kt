@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.presentation.composables
+package  org.arribasc.project.core.presentation.composables
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.unit.dp
-import com.arribasc.fomo.core.presentation.darkBackground
+import  org.arribasc.project.core.presentation.darkBackground
 
 @Composable
 fun DarkBackground() {

@@ -1,4 +1,4 @@
-package com.arribasc.fomo.core.data
+package  org.arribasc.project.core.data
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.HttpClientEngine

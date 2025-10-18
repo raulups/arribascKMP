@@ -1,4 +1,4 @@
-package com.arribasc.fomo.di
+package org.arribasc.project.di
 
 import org.koin.core.context.startKoin
 import org.koin.dsl.KoinAppDeclaration

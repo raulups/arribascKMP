@@ -1,7 +1,7 @@
 package org.arribasc.project
 
 import android.app.Application
-import com.arribasc.fomo.di.initKoin
+import  org.arribasc.project.di.initKoin
 import org.koin.android.ext.koin.androidContext
 
 class ExampleApplication: Application() {
