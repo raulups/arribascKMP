@@ -119,6 +119,10 @@ android {
     }
 }
 
+room {
+    schemaDirectory("$projectDir/schemas")
+}
+
 dependencies {
     implementation(libs.androidx.annotation.jvm)
     debugImplementation(compose.uiTooling)
