@@ -1,0 +1,139 @@
+# =========================================================================
+# Archivos y directorios generales generados por Builds
+# =========================================================================
+build/
+*/build/
+out/
+DerivedData/
+
+# =========================================================================
+# Gradle
+# =========================================================================
+.gradle/
+gradle-app.setting
+!.gradle-wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+gradle/
+.gradletasknamecache
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Cache de configuración de Gradle
+.gradle-configuration-cache/
+.gradle-task-history/
+
+# Archivos específicos de configuración local (¡No subir!)
+local.properties #
+
+# =========================================================================
+# Android Studio / IntelliJ IDEA
+# =========================================================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea/caches/
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/render.experimental.xml
+.idea/runConfigurations/
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/dictionaries/
+.idea/migrations.xml
+.idea/navEditor.xml
+.idea/project-settings.xml
+.idea/profiler/
+*.dat
+*.log
+*~
+modules.xml
+generated/
+externalDependencies/
+*.hprof
+*.orig
+# Contiene tokens de Firebase, etc. No subir.
+google-services.json
+
+# =========================================================================
+# Android
+# =========================================================================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.a*
+*.so
+*.jar
+gen/
+bin/
+res/merged/
+res/rs/
+obj/
+libs/armeabi/
+libs/armeabi-v7a/
+libs/arm64-v8a/
+libs/mips/
+libs/mips64/
+libs/x86/
+libs/x86_64/
+lint/reports/
+lint/intermediates/
+lint/lint-results-*.xml
+# Archivos de Keystore (¡No subir NUNCA!)
+*.jks
+*.keystore
+
+# =========================================================================
+# iOS / Xcode
+# =========================================================================
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcuserdatad/
+*.hmap
+*.ipa
+*.app/
+*.dSYM/
+*.mobileprovision
+*.resolved
+*.xcarchive/
+xcuserdata/
+profile/
+*.pch
+DerivedData/
+# Paquetes Swift Package Manager
+.swiftpm/build/
+Packages/
+
+# =========================================================================
+# Archivos del Sistema Operativo
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icono personalizado
+Icon
+
+# Papelera de reciclaje de macOS
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# =========================================================================
+# Otros
+# =========================================================================
+# Logs de Ktor (si los generas en archivos)
+*.log
