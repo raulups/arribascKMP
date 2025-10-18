@@ -1,12 +1,12 @@
 package  org.arribasc.project.core.presentation
 
-import arribasckmp.composeapp.generated.resources.Res
-import arribasckmp.composeapp.generated.resources.error_disk_full
-import arribasckmp.composeapp.generated.resources.error_no_internet
-import arribasckmp.composeapp.generated.resources.error_request_timeout
-import arribasckmp.composeapp.generated.resources.error_serialization
-import arribasckmp.composeapp.generated.resources.error_too_many_requests
-import arribasckmp.composeapp.generated.resources.error_unknown
+import emer.composeapp.generated.resources.Res
+import emer.composeapp.generated.resources.error_disk_full
+import emer.composeapp.generated.resources.error_no_internet
+import emer.composeapp.generated.resources.error_request_timeout
+import emer.composeapp.generated.resources.error_serialization
+import emer.composeapp.generated.resources.error_too_many_requests
+import emer.composeapp.generated.resources.error_unknown
 import  org.arribasc.project.core.domain.DataError
 
 fun DataError.toUiText(): UiText {

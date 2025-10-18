@@ -1,4 +1,4 @@
-rootProject.name = "arribascKMP"
+rootProject.name = "emer"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

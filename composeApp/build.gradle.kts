@@ -93,11 +93,11 @@ kotlin {
 }
 
 android {
-    namespace = "org.arribasc.project"
+    namespace = "com.arribasc.emer"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "org.arribasc.project"
+        applicationId = "com.arribasc.emer"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
